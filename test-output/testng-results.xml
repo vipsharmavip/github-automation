@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Repository Automated-repository created]]>
+    </line>
+    <line>
+      <![CDATA[Repository Automated-repository29.13.46.58 submitted successfuly]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22134" started-at="2016-06-29T08:16:53Z" finished-at="2016-06-29T08:17:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22134" started-at="2016-06-29T08:16:53Z" finished-at="2016-06-29T08:17:16Z">
+      <class name="Compute">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Compute@6c6cef3a]" name="setUp" is-config="true" duration-ms="4742" started-at="2016-06-29T13:46:53Z" finished-at="2016-06-29T13:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Step01_validateLogin()[pri:0, instance:Compute@6c6cef3a]" name="Step01_validateLogin" duration-ms="2744" started-at="2016-06-29T13:46:58Z" finished-at="2016-06-29T13:47:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Step01_validateLogin -->
+        <test-method status="PASS" signature="Step02_validAddRepository()[pri:0, instance:Compute@6c6cef3a]" name="Step02_validAddRepository" duration-ms="5780" started-at="2016-06-29T13:47:01Z" finished-at="2016-06-29T13:47:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Repository Automated-repository created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Step02_validAddRepository -->
+        <test-method status="PASS" signature="Step03_validateCommit()[pri:0, instance:Compute@6c6cef3a]" name="Step03_validateCommit" duration-ms="8851" started-at="2016-06-29T13:47:07Z" finished-at="2016-06-29T13:47:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Repository Automated-repository29.13.46.58 submitted successfuly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Step03_validateCommit -->
+      </class> <!-- Compute -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
