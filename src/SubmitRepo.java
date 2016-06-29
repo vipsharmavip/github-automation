@@ -15,7 +15,7 @@ public class SubmitRepo {
 By valid = By.xpath("//a[text()='vipul']");
 				
 	String username = "vipsharmavip";
-	String userpass = "09720074556a";
+	String userpass = "-------------";    // Enter the pass
     String gitinit = "git init";
 	String gitadd = "git add README.txt";
 	String commit = "git commit -m vipul";
